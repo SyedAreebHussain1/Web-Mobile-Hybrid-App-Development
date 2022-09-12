@@ -1,0 +1,15 @@
+syntax: the way how you write code
+
+string: group of characters
+
+concatenation: merging of 2 elements
+
+translation:
+1.Compilation
+2.Interpretation
+3.Assembler
+
+a++ = +1
+++a = +1
+a-- = -1
+--a = -1    

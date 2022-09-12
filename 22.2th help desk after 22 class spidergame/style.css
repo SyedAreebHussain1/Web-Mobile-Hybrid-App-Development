@@ -1,0 +1,11 @@
+body {
+  background-image: url("https://www.emugifs.net/wp-content/uploads/2019/02/Animated-GIF-The-King-of-Fighters-98-USA-Stage-Background-Sprites-Wallpaper-KOF-98-Dream-Match-Never-Ends-KOF-98-The-Slugfest-SNK-Neo-Geo-1998.gif");
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover;
+}
+.spider {
+  position: absolute;
+  bottom: 0;
+  /* width: 300px; */
+} 

@@ -1,0 +1,22 @@
+very important  
+
+onclick="alert('');"
+onclick='alert("");'
+
+onclick="alert("Hello world");" Error
+
+
+onclick="alert('');alert('');"
+onclick= 'alert("");alert("");'
+
+Css
+backgroud-color: red;
+text-align:
+
+
+
+JavaScript may hum camel case k undr dyty ha
+
+backgroudColor = 'red'
+textAlign =
+backgroundImage =

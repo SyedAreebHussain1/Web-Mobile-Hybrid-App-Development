@@ -1,0 +1,5 @@
+SPA - MPA
+
+1)Single page Application (page barbar load nh hota)
+
+2)Multiple page Application

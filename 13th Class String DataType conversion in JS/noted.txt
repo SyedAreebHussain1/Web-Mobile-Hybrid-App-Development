@@ -1,0 +1,16 @@
+syntax: The way how you write code
+
+String: Group of characters "Helloworld" 
+
+Concatenation: Marging of two elements ali5
+
+Translation:
+1.Compilation
+2.Interpretation
+3.Assembler
+
+a++ = +1
+++a = +1
+a-- = -1
+--a = -1
+

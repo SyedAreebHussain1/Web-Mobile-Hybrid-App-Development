@@ -1,0 +1,91 @@
+React Native Cli
+Google Search (react native cli)
+link (Seeting up the development environment-React Native)
+
+1.link)Expo CLI Quickstart  
+2.link)React Native CLI Quickstart~(click)
+
+React Native cli ko use karny k liye sab se pehly environment setup karna parta ha..expo k liye hum ny kya kiya tha sirf nodejs install kara or directly expo start kardi lekin React Native is tarha start nh hoti React Native may apko ek setup karna hota ha jo k thora sa bara hota ha sirf first time apko karna hota ha apny computer may apki new fresh window ha apko environment setup karna ha or us k bad React Native use karna start kardyna ha environment setup may is k thora sa time lagta ha or us k bad ap apny computer may React Native ko use kar sakty ha React Native ki bhi puri documention ha jis ko follow karty ve hum iska setup kary gy.
+agr apko development android k liye karni ha wo tou hojaye gi windows pe lekin iOS k liye apko Apple ka laptop jis ko kehty ha macBook he use karna pary ga iOS ki development hum windows se nh kar sakty agr ap k pass macBook ha tou ap android or iOS ki development aram se kar sakty ha 
+
+Development OS
+"macOS 'android/iOS'","Windows 'only Android'~(click)","Linux"
+
+
+
+Target OS
+"Android ~click", "iOS"
+
+
+Installing dependencies(nodejs apny pehly he install karliya tha)
+You will need Node, the React Native command line interface, a JDK, and Android Studio.(coding k liye VS code he use kary)
+
+Node,JDK
+We recommend installing Node via (Chocolatey ~click), a popular package manager for Windows.(Chocolatey ek package ha jasiy k npm hota ha npm jaisy ek package maneger ha is he tarha se chocolatey bhi package manager ha)
+(Install ~click)
+
+Now run the following command:
+"Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))"copy
+
+
+computer search
+Power shell commend rigth click run as administrator
+power shell paste 
+choclatey mery system may install hojaye ga.
+React Native ki website pe duabara ajaoga
+ub mery computer choco k nam ek cammand mil jaye gee
+example:(choco install -y nodejs-lts openjdk11)
+
+
+computer search command promt (right click run as administriter) 
+commeand paste (choco install -y nodejs-lts openjdk11) Nodejs update hojaye ga or JDK install hojaye ga
+
+
+Install Android studio
+(Download and intall Android Studio ~click)
+and download Android Studio
+
+//C:\Users\Syed Aqib\AppData\Local\Android\Sdk\platform-tools
+
+//;C:\Users\Syed Aqib\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\heroku\bin;C:\Users\Syed Aqib\AppData\Roaming\npm
+
+
+React Native ka project bana rahy ha command
+npm i -global react-native-cli ko globali intsall kar sakty ha ya 
+npx react-native init AwesomeProject
+
+
+mobile>Developer options>USB debugging 'on'
+command
+folder>npx react-native init AwesomeProject(create_project)
+(y)y
+folder>cd AwesomeProject
+folder>code .
+folder>adb devices (hamy bata dyga k mobile connect ha kaya nh)
+ub ham is project ko chala k dekhna ha Q k main ny android ka path bhi set kardiya ha sar cheez set kardi ha tou ek command hoti ha jab ap android k sary path set karlyty ha. ek commmand hamy milti ha "adb" 
+folder>npx react-native run-android 
+ya phir react-native run-android
+
+
+vs code open and folder read
+>_tests_
+>.bundle
+>android (android se related files hoti ha)
+>iOS (iOS se related files hoti ha)
+>node_modules (node_modules apko pata ha)
+ .buckconfig
+ .eslintrc.js
+ .flowconfig
+ .gitignore (.gitignore ka bhi apko pata ha)
+ .prettierrc.js
+ .watchmanconfig (watchmanconfin ye ek module hota ha)
+ App.js(sab se main file App.js hogi apki)
+ app.json
+ babel.config.js
+ Gemfile
+ index.js(sab se sab se zarori file index.js hogi apki)
+ metro.config.js(metro.config.js ye bhi module ha)
+ package-lock.json
+ package.json(package.jrson ki file apko pata ha is may apky sary packages hoty ha dependencies hoti ha or versions hoty ha)
+
+

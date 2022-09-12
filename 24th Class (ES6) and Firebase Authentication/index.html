@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>24th class ES6 and Firebase Auth</title>
+    <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-auth.js"></script>
+    <script>
+        const firebaseConfig = {
+            apiKey: "AIzaSyBvwqdhNnvmlVi3sZSe59IIvwOZ7NwFbqA",
+            authDomain: "th-class-cdfce.firebaseapp.com",
+            projectId: "th-class-cdfce",
+            storageBucket: "th-class-cdfce.appspot.com",
+            messagingSenderId: "122167786833",
+            appId: "1:122167786833:web:6e9ffb1e80d3044fb86770",
+            measurementId: "G-HKLKPFGK98"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+    </script>
+</head>
+<div class="form">
+    <input type="email" name="" id="email" placeholder="Email">
+    <br>
+    <input type="password" name="" id="pass" placeholder="Password">
+    <br>
+    <button onclick="signup()">Signup</button>
+</div>
+<br>
+<br>
+<br>
+<div class="form">
+    <input type="email" name="" id="loginEmail" placeholder="Email">
+    <br>
+    <input type="password" name="" id="loginPass" placeholder="Password">
+    <br>
+    <button onclick="login()">LogIn</button>
+</div>
+
+<body>
+</body>
+<script src="app.js"></script>
+
+</html>

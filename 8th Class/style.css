@@ -1,0 +1,70 @@
+/* h1,body{
+    color: aquamarine;
+    background-color: blue;
+} */
+
+/* img {
+    width: 600px;
+}
+@media only screen and (max-width:800px){
+   img{
+       width: 400px;
+   }
+}
+@media only screen and (max-width:600px){
+    img{
+        width: 200px;
+}  */
+/* body{
+    background-color: blue;
+}
+@media only screen and (max-width:500px){
+    body{
+        background-color: brown;
+    }
+} */
+
+
+
+
+
+/* .main{
+         display: flex;
+         flex-direction: row-reverse;
+         justify-content: space-around;
+         flex-wrap: wrap;
+         align-items: flex-start;
+}
+
+
+.one,.two,.three{
+            border: 2px solid red;
+            /* width: 200px; */
+}
+.one{
+     flex: 1;
+}
+.two{
+      flex: 3;
+}
+.three{
+      flex: 1;
+}
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

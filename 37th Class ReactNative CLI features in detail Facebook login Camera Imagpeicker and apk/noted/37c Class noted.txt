@@ -1,0 +1,100 @@
+React native ui Labrarys
+1)native base (bhot easy ha bhot achi ha isko expo may bhi use kar sakty ha)
+
+chache clean command
+folder>cd android
+folder/android>gradlew clean
+folder/android>cd ..
+folder/android>adb devices
+folder>npx react-native run-android
+
+ multiDexEnabled true
+
+
+React Navigation 
+install (npm install @react-navigation/native)
+
+Installing dependencies into a bare React Native project
+install(npm install react-native-screens react-native-safe-area-context)
+
+Hello React Navigation
+install(npm install @react-navigation/native-stack)
+
+
+
+Camera
+search (React Native Camera) 
+link(react-native-camera - npm)
+Docs Follow our docs here https://react-native-camera.github.io/react-native-camera/ ¬click
+goto web React Native Camera 
+[TRY IT OUT]¬click 
+install(npm install react-native-camera --save)
+(--save) hum pehly lagaya karty thy hum is ka kam ye tha k jo package hum install kar rahy ha usko hum package.json ki file may add karty ha using --save tou ub --save karny ki zarorat nh ha ub automatic jab hum koi package install karty ha wo khud se package.json k undr ja save hojata ha
+  
+Add permissions to your app android/app/src/main/AndroidManifest.xml file:
+<uses-permission android:name="android.permission.CAMERA" />
+
+Insert the following lines in android/app/build.gradle:
+android{...defaultConfig{...missingDimensionStrategy 'link'}}
+folder>npx react-native run-android
+
+
+RNCamera
+src>screens>Camera.js|
+
+
+search (react-native imagepicker)
+link react-native image-picker-npm
+install(npm i react-native-image-picker)
+jitni bhi app ki permission ha camera,storage,bluethoot ki ha kisi bhi cheez ki permission ha wo react-native-cli k project may AndroidManifest.xml k file k undr add hoti ha 
+android/app/src/main/AndroidManifest.xml
+<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+
+
+Firebase 
+firebase ap is may kis tarha use kary gy ap is may normal firebase bhi use karsakty ha jis trha ap web may karty thy expo may kar rahy thy us tarha bhi ap is may use kar sakty ha lekin acha tareeka is may ye ha k react native ki apni labrary ha apna module ha jiska name ha (react native firebase)
+
+Google search (react native firebase)
+link(React Native Firebase)
+intall(npm install --save @react-native-firebase/app)
+
+Android Setup
+To allow the Android app to securely connect to your Firebase project, a configuration file must be downloaded and added to your project.
+Generating Android credentials
+On the Firebase console, add a new Android application and enter your projects details. The "Android package name" must match your local projects package name which can be found inside of the manifest tag within the /android/app/src/main/AndroidManifest.xml file within your project.
+/android/app/src/main/AndroidManifest.xml
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+  package="com.awesomeproject">
+android firebase
+Register app
+Android package name
+add (com.awesomeproject)
+App nickname (optional)
+add practice
+Resgister app
+
+Download the google-services.json file and place it inside of your project at the following location: /android/app/google-services.json.
+
+Configure Firebase with Android credentials
+First, add the google-services plugin as a dependency inside of your /android/build.gradle file:
+classpath 'com.google.gms:google-services:4.3.13'
+
+Lastly, execute the plugin by adding the following to your /android/app/build.gradle file:
+
+apply plugin: 'com.google.gms.google-services' // <- Add this line
+
+
+react native fireabse 
+Realtime Database
+# Install the database module
+Install(npm i --save @react-native-firebase/app)
+Install(npm i @react-native-firebase/database)
+
+
+Facebook Login 
+Google(react-native-fbsdk)=>ye package ha jis ki help se hum fb login karygy
+install(npm install --save react-native-fbsdk-next)
+
+2jmj715rSw0yVb/vlWAYkK/YBwk=

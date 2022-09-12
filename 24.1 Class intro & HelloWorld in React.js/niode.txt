@@ -1,0 +1,7 @@
+React is a library of javascript
+component based model 
+reusibility (declarative approach)
+
+major points
+1)npm install --global create-react-app
+2)create-react-app project name jo bhi ap bana rahy ha is k thoro ap directtry puri junrait kardygy base on react

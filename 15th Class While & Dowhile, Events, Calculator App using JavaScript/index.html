@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>15th Class Javascript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Topic 43 Placing script -->
+    <!-- <script>
+        function sayHi(){
+            alert("Hello World!")
+        }
+        function saBye(){
+            alert("Buh-bye")
+        }
+    </script> -->
+
+
+
+
+
+
+    <!-- Topic 45 Event link -->
+    <!-- <a href="#"> hamary page ko referh karta ha click krny pe  -->
+    <!-- <a href="#">Click Me</a> -->
+
+
+    <!-- <a href="#" onclick="alert('Hello World!');">Click Me</a> -->
+
+
+
+    <!-- <a href="#" onclick="alert("Hello World!");">Click Me</a> Error -->
+
+
+    <!-- <a href="#" onclick="var a = 'Hello';alert(a)">Click Me</a> -->
+
+    <!-- <a href="#" onclick="var greet = 'hi';alert(greet);">Click</a> -->
+
+
+    <!-- Javascript:void(0) kuch bhi nh kary bus us se onlick alert hojye baki bekar h  -->
+    <!-- <a href="javascript:void(0)" onclick="alert('Hi');">Click</a> -->
+
+
+    <!-- <a href="#" onclick="foo()">Click</a> -->
+
+    <!-- <a href="#" onclick="foo()">Click</a> -->
+
+    <!-- <a href="#" onclick="foo('Hello Saylani!')">Click</a> -->
+
+
+
+
+    <!-- Topic 46 Event Button -->
+
+    <!-- <button onclick="clickBtn()">Click</button> -->
+
+
+
+
+    <!-- Topic 47 Event mouse -->
+
+    <!-- <img width="100" onmouseover="foo()" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyfX2Squq7N04PLTgghNIc9hJ_uZ6WpdqNVw&usqp=CAU" alt=""> -->
+
+    <!-- <img width="100" onmouseover="console.log('over')" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyfX2Squq7N04PLTgghNIc9hJ_uZ6WpdqNVw&usqp=CAU" alt=""> -->
+
+    <!-- <img width="100" onmouseout="console.log('out')" onmouseover="console.log('over')" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyfX2Squq7N04PLTgghNIc9hJ_uZ6WpdqNVw&usqp=CAU" alt=""> -->
+
+    <!-- <img width="100" onmousemove="console.log('move')" onmouseout="console.log('out')" onmouseover="console.log('over')" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyfX2Squq7N04PLTgghNIc9hJ_uZ6WpdqNVw&usqp=CAU" alt=""> -->
+
+
+
+
+
+    <!-- Topic 48 Events:fields  -->
+
+    <!-- <input type="text" onfocus="console.log('focus')"> -->
+
+    <!-- <input type="text" onfocus="this.style.backgroundColor='red';"> -->
+
+    <!-- <input type="text" onblur="this.style.backgroundColor='yellow';" onfocus="this.style.backgroundColor='red';"> -->
+
+
+
+    <!-- Topic 49 Reading Field Values -->
+
+    <!-- 
+<input type="text" id="names" onblur="this.style.backgroundColor='yellow';" onfocus="this.style.backgroundColor='red';">
+<button onclick="getName()">Click</button> -->
+
+
+
+    <!-- <input type="text" id="xyz" onblur="this.style.backgroundColor='yellow';" onfocus="this.style.backgroundColor='red';">
+<button onclick="getName()">Click</button> -->
+
+
+
+    <!-- 
+<input type="text" id="xyz">
+<button onclick="getName()">Click</button> -->
+
+
+    <!-- 
+<input type="text" id="xyz">
+<button onclick="getName()">Click</button> -->
+
+
+
+    <!-- 
+<input type="text" id="xyz">
+<button onclick="getName()">Click</button> -->
+
+
+
+
+
+
+    <!-- Topic 50 Setting field values-->
+
+
+
+    <!-- <input type="text" id="xyz">
+<button>BTN</button> -->
+
+
+
+
+    <!-- <p id="para"></p> -->
+
+
+
+
+
+    <!-- <input type="text" id="xyz">
+<p id="para"></p> -->
+
+
+
+    <!-- Calculator -->
+
+
+    <div class="main"> 
+        <div>
+            <input class="result" type="text" name="" id="inputResult">
+        </div>
+        <div>
+            <button class="clearBtn" onclick="clearResult()">C</button>
+        </div>
+        <div>
+            <button class="btn" onclick="getNum('7')">7</button>
+            <button class="btn" onclick="getNum('8')">8</button>
+            <button class="btn" onclick="getNum('9')">9</button>
+            <button class="btn" onclick="getNum('*')">X</button>
+        </div>
+        <div>
+            <button class="btn" onclick="getNum('4')">4</button>
+            <button class="btn" onclick="getNum('5')">5</button>
+            <button class="btn" onclick="getNum('6')">6</button>
+            <button class="btn" onclick="getNum('-')">-</button>
+        </div>
+        <div>
+            <button class="btn" onclick="getNum('1')">1</button>
+            <button class="btn" onclick="getNum('2')">2</button>
+            <button class="btn" onclick="getNum('3')">3</button>
+            <button class="btn" onclick="getNum('+')">+</button>
+        </div>
+        <div>
+            <button class="halfBtn" onclick="getNum('0')">0</button>
+            <button class="halfBtn" onclick="getResult()">=</button>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+<script src="app.js"></script>
+
+</html>

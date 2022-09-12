@@ -1,0 +1,79 @@
+Mobile ka hardware kaisy use kary gy ye ajj hum dekhy gy jaisy k Camera,Bluethoot,Gallery,Location,scanncer kafi saari sari cheezy ha jaisy k camery k under bhi kafi saari cheezy ha jasiy k front Camera Or back Camera phir Camery se picture lyna Camera ka Flash on karna camery se lee gaye Picture save karna kafi sarri cheezy ha camery may bhi..
+
+acha hum sirf important modeule use kary gy
+ajj ki class may hum ye cheezy cover kary gy
+1)Camera
+2)Google Map
+3)Gallery
+4)Loaction
+
+acha is may koi mushkil nh ha acha aisa ho bhi nh sakta k react-native may jitny bhi packages ha jinty bhi hardware ha wo sub hum phary Q k is may kafi sari cheezy ha. hum kuch important cheezy phary gy ye cheezy jab hum phar ly gy tou hamy samjh may ajye gee kis tarha se implimant ho rahi ha agy hum khud bhi kar ly gy bus hum basic cheezy cover kary gy baki ap khud se bhi kar sakty ha. 
+
+acha ek sawal aya ha what about net and off line use tou off line use is may kaisy hoga k jab ek bar net chaly tou ap sara jo data ha redux may save karwa k rakh ly or phir user k pass internet nh hoga tou phir tou data redux se ara hoga or wo use kar raha hoga tou is ko ap off line use karskty ha.
+
+
+Camera:
+react-native expo may hum dekhy gy k camera kaisy use karty ha
+Google search (expo Camera)
+link (Camera - Expo Documentation)
+install (expo install expo-camera)
+
+Type may hu isko btaty ha k front Camera use kary gy ya back Camera Camera.Constants.Type hum apko abhi use kar k bata dy gy
+
+Gallery may camery se picture save karny k liye hum use kary gy 
+Google Seach (MediaLibaray)
+Link (MediaLibrary-Expo Documention)
+install (expo install expo-media-library)
+////Camera topic end////
+
+
+2)Gallery
+ ub hum kya kary gy picture ko gallery se expo app k undr get kary gy mtlb Gallery open karna app k undr koi picture get karna.
+Gallery k liye expo may jo hum modeule use karty ha uska name ha (expo image picker)
+
+Google search (expo image picker)  
+Link ImagePicker-Expo Documention
+install (expo install expo-image-picker)
+
+
+
+3)Google Map
+important apko pata har jaga ggogle map use hota ha careem,uber,bykea or foodpanda etc.
+ 
+google Search (expo map view)
+link (MapView-Expo Documentation) 
+install (expo install react-native-maps)
+
+
+
+4)Location
+Google search (Expo location)
+Link (Location-Expo Documention)
+install (expo install expo-location)
+
+
+Expo SDK 
+ye sab or bhi ha ap khud se kary plz ye sab 
+Audio
+Battery
+BlurView
+location karwa diya
+Camera apko karwa diya
+Caldender
+Gallery karwa diya
+FlashLight
+FaceDetector
+MapView karwa diya
+Contacts use kar sakty ha mobile k contacts ha wo ap app may get kar sakty ha 
+SMS 
+Video
+AsyncStorage
+Contacts
+Brightness 
+kafi cheezy ha jo ap use kar sakty ha bhot easy ha 
+
+
+
+payment mehtods ki bhot sari API's hoti jo ap is may use kar sakty ha kuch hota ha jo bank apko dyty ha APi hum ny phari thi API fatch k sth use kar sakty ha is k ilawa kafi sary payments mehthoids hoty ha jaisy k stripe, paypal, tou sary module is may ha 
+
+agr apko paypal use karna ha paypal ny apni alag documention banye ve ha or agr apko HBL use karna ha uska alag tareeka ha tou sab k apny apny tareeky hota ha javaScript k zariye sab ko intregate kar sakty ha 

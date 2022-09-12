@@ -1,0 +1,8 @@
+1st) setInterval => reapeatively running
+chalta rehta ha bar bar
+ hum usko ek time define kardyty ha k ap itny time k undr bar bar apko reapeat ho na ha jab tak apko ruko nh jaye jb tak apko rukna nh ha apko bar bar repeat ho ty rehna ha itny time bad ek time usko hum define kadyty h
+
+
+
+2nd) setTimeOut => after sometime 
+ye chalta kuch time bad..ye function h is ma hum define karty h or isko hum bolty h k itny time bad apko chal jana ha

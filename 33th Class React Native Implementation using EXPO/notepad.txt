@@ -1,0 +1,13 @@
+android > .apk
+ios > .ipa
+
+react => npm/npx create-react-app myapp
+
+expo => expo init projectname
+
+repaet..
+1) download & install nodeJS
+2) install expo-cli (npm i -g expo-cli) ek bar install
+3) playstore download expo app
+4) create new project (expo init myapp) new project
+5) select blank workflow
